@@ -4,23 +4,25 @@
       <b-navbar-nav>
         <b-navbar-brand to="/">Pogo</b-navbar-brand>
         <b-nav-item to="/career">Career</b-nav-item>
-        <b-nav-item to="/about">About</b-nav-item>
-        <b-nav-item-dropdown text="User" right>
-          <b-dropdown-item href="#">Account</b-dropdown-item>
-          <b-dropdown-item href="#">Settings</b-dropdown-item>
-        </b-nav-item-dropdown>
+        <b-nav-item to="/projects">Projects</b-nav-item>
+        <b-nav-item to="/personal">Personal</b-nav-item>
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">
-        <b-nav-item right>
-          <b-img width="50" :src="require('./assets/twitter.png')" to="https://twitter.com/JarPogo"></b-img>
+        <b-nav-item href="https://twitter.com/JarPogo" target="_blank" v-b-tooltip title="Twitter">
+          <b-img width="50" :src="require('./assets/twitter.png')">g</b-img>
         </b-nav-item>
-
-        <b-navrbar-nav>
-          <b-button size="sm" class="mb-2">
-            <b-icon icon="gear-fill" aria-hidden="true"></b-icon>Settings
-          </b-button>
-        </b-navrbar-nav>
+        <b-nav-item
+          href="https://github.com/jarpogo?tab=repositories"
+          target="_blank"
+          v-b-tooltip
+          title="GitHub"
+        >
+          <b-img width="50" :src="require('./assets/github.png')"></b-img>
+        </b-nav-item>
+        <b-nav-item href="https://vimeo.com/jarpogo" target="_blank" v-b-tooltip title="Vimeo">
+          <b-img width="50" :src="require('./assets/vimeo.png')"></b-img>
+        </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
 
