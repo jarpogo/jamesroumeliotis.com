@@ -1,29 +1,47 @@
 <template>
   <div>
+    <hr />
+    <b-jumbotron class="text-left" bg-variant="dark" text-variant="white" border-variant="dark">
+      <template v-slot:header>
+        <b-img fluid alt="Responsive image" rounded="circle" :src="require('../assets/me.png')"></b-img>
+        <span class="tab"></span>
+        Pogo
+      </template>
+
+      <hr class="my-4" />
+
+      <p>Mission Statement</p>
+    </b-jumbotron>
+
+    <hr />
     <b-carousel
-      id="carousel-1"
+      id="carousel"
       fade
       v-model="slide"
       :interval="5000"
       controls
       indicators
       background="#ababab"
-      img-width="1024"
-      img-height="480"
+      max-height="100"
       style="text-shadow: 1px 1px 2px #333;"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <!-- Text slides with image -->
       <b-carousel-slide
         caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
-      ></b-carousel-slide>
+        :img-src="require('../assets/code.png')"
+        img-height="100"
+      >
+        <h1>Career</h1>
+      </b-carousel-slide>
 
-      <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-        <h1>Hello world!</h1>
+      <b-carousel-slide :img-src="require('../assets/pogo.png')" img-height="100">
+        <h1>Pogo World Records</h1>
+      </b-carousel-slide>
+
+      <b-carousel-slide :img-src="require('../assets/pichu.png')" img-height="100">
+        <h1>Smash Competitor</h1>
       </b-carousel-slide>
     </b-carousel>
   </div>
@@ -47,3 +65,8 @@ export default {
   }
 };
 </script>
+
+
+
+<style scoped>
+</style>

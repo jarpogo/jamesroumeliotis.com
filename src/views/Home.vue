@@ -1,17 +1,20 @@
 <template>
   <div class="home">
-    <b-card></b-card>
+    <b-container fluid="xl">
+      <Header></Header>
+    </b-container>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BCard from "@/components/BCard.vue";
+
+import Header from "@/components/Header.vue";
 
 export default {
   name: "Home",
   components: {
-    BCard
+    Header
   }
 };
 </script>
