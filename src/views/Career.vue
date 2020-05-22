@@ -17,6 +17,11 @@
       <div v-for="skill in resume.skills.leadership" v-bind:key="skill.name">
         <Skillset v-bind:skill="skill"></Skillset>
       </div>
+
+      <h1>Organization Skills</h1>
+      <div v-for="skill in resume.skills.organization" v-bind:key="skill.name">
+        <Skillset v-bind:skill="skill"></Skillset>
+      </div>
     </b-container>
   </div>
 </template>

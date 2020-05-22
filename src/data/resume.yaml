@@ -19,7 +19,7 @@ skills:
             variant: success
         -
             name: Linux
-            value: 7
+            value: 8
             variant: success
         -
             name: Terraform
@@ -30,14 +30,32 @@ skills:
             value: 6
             variant: warning
 
-    leadership:
+    organization:
         -
-            name: Communication
-            value: 8
+            name: Scrum
+            value: 9
             variant: success
+        -   
+            name: OKR
+            value: 8 
+            variant: success
+        -
+            name: Kanban
+            value: 7 
+            variant: success
+        -
+            name: SAFe
+            value: 5 
+            variant: warning
+        
+    leadership:
         -
             name: People Management
             value: 9
+            variant: success
+        -
+            name: Communication
+            value: 8
             variant: success
         -
             name: Planning
@@ -45,8 +63,8 @@ skills:
             variant: success
         -
             name: Strategy
-            value: 0
-            variant: 
+            value: 7
+            variant: success
         - 
             name: Crisis Managment
             value: 6
