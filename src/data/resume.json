@@ -1,0 +1,29 @@
+{
+    "0": {
+        "company": "Cimpress Technology",
+        "image": "cimpress.png",
+        "title": "Manager, Cloud Engineering",
+        "description": "Insert description",
+        "highlights": "Insert highlights",
+        "startDate": "2018-12",
+        "endDate": "2020-06"
+    },
+    "1": {
+        "company": "Veracode",
+        "image": "veracode.png",
+        "title": "Manager, Site Reliability Engineering",
+        "description": "Insert description",
+        "highlights": "Insert highlights",
+        "startDate": "2017-10",
+        "endDate": "2018-12"
+    },
+    "2": {
+        "company": "Eliza Corporation",
+        "image": "eliza.png",
+        "title": "Manager, DevOps",
+        "description": "Insert description",
+        "highlights": "Insert highlights",
+        "startDate": "2015-05",
+        "endDate": "2017-10"
+    }
+}

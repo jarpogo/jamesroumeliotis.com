@@ -1,13 +1,12 @@
 <template>
   <div>
     <b-container fluid="xl">
-      <b-alert show class="text-left" variant="dark">Work History</b-alert>
       <b-row>
         <b-card-group deck>
           <b-card
             title="Cimpress Technology"
             sub-title="Manager, Cloud Engineering"
-            :img-src="require('../assets/cimpress.png')"
+            :img-src="require('../assets/company_logos/cimpress.png')"
             img-alt="Verizon Logo"
             img-top
             tag="article"
@@ -21,7 +20,7 @@
           <b-card
             title="Veracode"
             sub-title="Manager, Site Reliability Engineering"
-            :img-src="require('../assets/veracode.png')"
+            :img-src="require('../assets/company_logos/veracode.png')"
             img-alt="Verizon Logo"
             img-top
             tag="article"
@@ -35,7 +34,7 @@
           <b-card
             title="Eliza Corporation"
             sub-title="Manager, DevOps"
-            :img-src="require('../assets/eliza.png')"
+            :img-src="require('../assets/company_logos/eliza.png')"
             img-alt="Verizon Logo"
             img-top
             tag="article"

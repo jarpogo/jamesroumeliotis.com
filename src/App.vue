@@ -1,29 +1,42 @@
 <template>
   <div id="app">
-    <b-navbar type="dark" variant="dark">
-      <b-navbar-nav>
-        <b-navbar-brand to="/">Pogo</b-navbar-brand>
-        <b-nav-item to="/career">Career</b-nav-item>
-        <b-nav-item to="/projects">Projects</b-nav-item>
-        <b-nav-item to="/personal">Personal</b-nav-item>
-      </b-navbar-nav>
+    <b-navbar sticky toggleable="sm" type="dark" variant="dark">
+      <!-- <b-navbar-nav> -->
+      <b-navbar-brand class="my-3" to="/">Pogo</b-navbar-brand>
 
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item href="https://twitter.com/JarPogo" target="_blank" v-b-tooltip title="Twitter">
-          <b-img width="50" :src="require('./assets/twitter.png')">g</b-img>
-        </b-nav-item>
-        <b-nav-item
-          href="https://github.com/jarpogo?tab=repositories"
-          target="_blank"
-          v-b-tooltip
-          title="GitHub"
-        >
-          <b-img width="50" :src="require('./assets/github.png')"></b-img>
-        </b-nav-item>
-        <b-nav-item href="https://vimeo.com/jarpogo" target="_blank" v-b-tooltip title="Vimeo">
-          <b-img width="50" :src="require('./assets/vimeo.png')"></b-img>
-        </b-nav-item>
-      </b-navbar-nav>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item to="/career">Career</b-nav-item>
+          <b-nav-item to="/projects">Projects</b-nav-item>
+          <b-nav-item to="/personal">Personal</b-nav-item>
+        </b-navbar-nav>
+
+        <!-- </b-navbar-nav> -->
+
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item
+            href="https://twitter.com/JarPogo"
+            target="_blank"
+            v-b-tooltip
+            title="Twitter"
+          >
+            <b-img height="50" :src="require('./assets/icons/twitter.png')">g</b-img>
+          </b-nav-item>
+          <b-nav-item
+            href="https://github.com/jarpogo?tab=repositories"
+            target="_blank"
+            v-b-tooltip
+            title="GitHub"
+          >
+            <b-img height="50" :src="require('./assets/icons/github.png')"></b-img>
+          </b-nav-item>
+          <b-nav-item href="https://vimeo.com/jarpogo" target="_blank" v-b-tooltip title="Vimeo">
+            <b-img height="50" :src="require('./assets/icons/vimeo.png')"></b-img>
+          </b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
     </b-navbar>
 
     <router-view />

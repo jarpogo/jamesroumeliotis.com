@@ -10,23 +10,30 @@
 
       <b-button class="mt-3" @click="randomValue">Click me</b-button>
     </div>
-    <b-card></b-card>
+    <b-container fluid="xl">
+      <b-row v-for="item in myJson" v-bind:key="item.text">
+        {{ item }}
+        <CompanyCard></CompanyCard>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BCard from "@/components/BCard.vue";
+import CompanyCard from "@/components/CompanyCard.vue";
+import json from "../data/resume.json";
 
 export default {
   name: "Career",
   components: {
-    BCard
+    CompanyCard
   },
   data() {
     return {
       value: 45,
-      max: 100
+      max: 100,
+      myJson: json
     };
   },
   methods: {
