@@ -1,29 +1,64 @@
 {
-    "0": {
-        "company": "Cimpress Technology",
-        "image": "cimpress.png",
-        "title": "Manager, Cloud Engineering",
-        "description": "Managed a team of three (3) engineers who specialized in cloud technologies and security.",
-        "highlights": "Insert highlights",
-        "startDate": "Dec, 2018",
-        "endDate": "Jun, 2020"
-    },
-    "1": {
-        "company": "Veracode",
-        "image": "veracode.png",
-        "title": "Manager, Site Reliability Engineering",
-        "description": "Insert description",
-        "highlights": "Insert highlights",
-        "startDate": "Oct, 2017",
-        "endDate": "Dec, 2018"
-    },
-    "2": {
-        "company": "Eliza Corporation",
-        "image": "eliza.png",
-        "title": "Manager, DevOps",
-        "description": "Insert description",
-        "highlights": "Insert highlights",
-        "startDate": "May, 2015",
-        "endDate": "Oct, 2017"
-    }
+    "work": [
+        {
+            "company": "Cimpress Technology",
+            "logo": "cimpress.png",
+            "website": "https://cimpress.com/",
+            "title": "Manager, Cloud Engineering",
+            "description": "Managed a team of three (3) engineers who specialized in cloud technologies and security.",
+            "highlights": "Insert highlights",
+            "startDate": "Dec, 2018",
+            "endDate": "Jun, 2020"
+        },
+        {
+            "company": "Veracode",
+            "logo": "veracode.png",
+            "website": "https://www.veracode.com/",
+            "title": "Manager, Site Reliability Engineering",
+            "description": "Insert description",
+            "highlights": "Insert highlights",
+            "startDate": "Oct, 2017",
+            "endDate": "Dec, 2018"
+        },
+        {
+            "company": "Eliza Corporation",
+            "logo": "eliza.png",
+            "website": "https://www.hms.com/eliza/",
+            "title": "Manager, DevOps",
+            "description": "Insert description",
+            "highlights": "Insert highlights",
+            "startDate": "May, 2015",
+            "endDate": "Oct, 2017"
+        },
+        {
+            "company": "Verizon",
+            "logo": "verizon.png",
+            "website": "https://www.verizon.com/",
+            "title": "Senior DevOps Engineer",
+            "description": "Insert description",
+            "highlights": "Insert highlights",
+            "startDate": "Dec, 2018",
+            "endDate": "Jun, 2020"
+        },
+        {
+            "company": "Tyco",
+            "logo": "tyco.png",
+            "website": "https://www.tyco.com/",
+            "title": "Software Engineer III",
+            "description": "Insert description",
+            "highlights": "Insert highlights",
+            "startDate": "Oct, 2017",
+            "endDate": "Dec, 2018"
+        },
+        {
+            "company": "ITT",
+            "logo": "itt.png",
+            "website": "https://www.itt.com/",
+            "title": "Software Engineer II",
+            "description": "Insert description",
+            "highlights": "Projects ranging from video/image processing; developing camera drivers, storage performance tests/GUIs; and system administration scripting and hardware/software installations. \nDevelopment ranging from C/C++ performance testing suites to Java front-end GUI design and application driven programs.",
+            "startDate": "May, 2015",
+            "endDate": "Oct, 2017"
+        }
+    ]
 }

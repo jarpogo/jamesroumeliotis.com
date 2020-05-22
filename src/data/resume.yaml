@@ -1,0 +1,130 @@
+about:
+    mission: 
+        - As an experienced Engineering leader and WPI graduate, I have seen multiple virtualization technologies across various cloud environments in different industries, allowing me to bring a pragmatic approach to tooling, automation, and implementing enterprise-level standards that best fit an organizations ecosystem.  Fluent in agile methodologies, focusing on Scrum and Kanban has allowed me to drive the direction of the team to optimize technology, save the organization money, and bring transparency into the business to streamline the production value of the Engineering department.  Capable of running in parallel; I continue day-to-day operations while recognizing, and taking advantage of, the opportunities to innovate.
+        - I flourish in an open/synchronous business where adaptive collaboration and consensus-building thrives.  I enjoy pursuing change that aligns the business towards more successful ventures.  Organizations that see the value in constructing enterprise-solutions will see their investment achieve top-tier returns while I am involved.  Let's build a better future, together.
+
+skills:
+    technical:
+        -
+            name: AWS
+            value: 9
+            variant: success
+        -
+            name: Python
+            value : 8
+            variant: success
+        -
+            name: GitLab
+            value: 8
+            variant: success
+        -
+            name: Linux
+            value: 7
+            variant: success
+        -
+            name: Terraform
+            value: 6
+            variant: warning
+        -
+            name: Node
+            value: 6
+            variant: warning
+
+    leadership:
+        -
+            name: Communication
+            value: 8
+            variant: success
+        -
+            name: People Management
+            value: 9
+            variant: success
+        -
+            name: Planning
+            value: 8
+            variant: success
+        -
+            name: Strategy
+            value: 0
+            variant: 
+        - 
+            name: Crisis Managment
+            value: 6
+            variant: warning
+
+work:
+    -
+        company: Cimpress Technology
+        logo: cimpress.png
+        website: https://cimpress.com/
+        title: Manager, Cloud Engineering
+        description: Managed a team of three (3) engineers who specialized in cloud technologies and security.
+        highlights: 
+            - Insert highlights
+        startDate: Dec, 2018
+        endDate: Jun, 2020
+    -
+        company: Veracode
+        logo: veracode.png
+        website: https://www.veracode.com/
+        title: Manager, Site Reliability Engineering
+        description: Brought on to create a vision for DevOps, build a larger team, and be a key leader for both FedRAMP and our Cloud Infrastructure throughout the organization. Working in an agile shop using the Scaled Agile Framework for enterprises (SAFe). 
+        highlights: 
+            - Initiated a DevOps portfolio at Veracode concentrating on Automation, Infrastructure as Code, and Workflows (CI/CD) throughout all product teams within Engineering centralized around AWS 
+            - Evaluated business-needs to implement the desired strategy and grew a team of 3 engineers to 12 
+            - Reduced monthly spend by 15% within our cloud infrastructure by targeting poor habits with unattached EBS volumes, EIPs, and Snapshots 
+            - Delivered a rearchitected implementation of the Datacenter monolith within AWS GovCloud by managing a group of 4 developers for the FedRAMP milestone 
+            - Through timeline adjustments, re-prioritization, and continuous involvement in the SDLC of our FedRAMP initiative, we became feature complete and finalized the audit for ATO 
+            - Key leader in the FedRAMP audit with our 3PAO to provide evidence for CIS level 1 hardening and IL2 
+        startDate: Oct, 2017
+        endDate: Dec, 2018
+    -
+        company: Eliza Corporation
+        logo: eliza.png
+        website: https://www.hms.com/eliza/
+        title: Manager, DevOps
+        description: Hired to lead a team of seven DevOps/Site Reliability Engineers with a focus on implementing best-practices across the Engineering department. Hands-on with the development and deployment of tools.
+        highlights: 
+            - By implementing Agile methodologies (Scrum and Kanban), achieved transparency and streamlined deadlines to deliver incremental releases
+            - Identified a lack of insight into the operations, remediated by implementing monitoring and log aggregation to promote data-driven decisions with tools such as Datadog and Sumologic
+            - Recognized the opportunity to scale our AWS cloud infrastructure by implementing configuration management tools such as Ansible
+            - Evaluated the existing engineering code lifecycle, created a vision, and managed the continuous integration/delivery (CI/CD) project to streamline development time
+            - By driving a Single Sign-On (SSO/SAML) project for the entire business, delivered a win-win by striking a balance between security and ease of access for the end-user with technologies such as Okta
+            - Played a key role in conceiving and implementing a data loss prevention solution to enhance security and protect business assets from leaving company property with tools such as Skyhigh and Zscaler
+            - Architected, designed, and implemented a File Tracking tool using Python, giving the business complete insight into where Client data resides within the platform lifecycle
+        startDate: May, 2015
+        endDate: Oct, 2017
+    -
+        company: Verizon
+        logo: verizon.png
+        website: https://www.verizon.com/
+        title: Senior DevOps Engineer
+        description: Key leader on the DevOps team focused on creating a cloud solution similar to that of Amazon Web Services targeting the private sector for business opportunities.
+        highlights: 
+            - Reduced per site cost from $300K to $20K by designing, implementing, and automating datacenter-wide Control Servers using python, bash, Anisble, and kickstart (network layer 2-7 infrastructure, redundancy, LDAP authentication, etc)
+            - Working with Xen virtualization, networking, full-stack maintenance/monitoring/automation
+            - Developed new monitoring of our infrastructure with the use of Nagios
+            - Team lead in infrastructure upgrades, datacenter genesis, and the DevOps Feature Team
+        startDate: Nov, 2013
+        endDate: May, 2015
+    -
+        company: Tyco
+        logo: tyco.png
+        website: https://www.tyco.com/
+        title: Software Engineer III
+        description: C/C++ developer working on IP security camera integration with an in-house Network Video Recorder.
+        highlights: 
+            - Developing in a linux environment (SuSE) primarily using tcpdump, wireshark, and of course gdb as the goto debugging tools.
+        startDate: Oct, 2011
+        endDate: Nov, 2013
+    -
+        company: ITT
+        logo: itt.png
+        website: https://www.itt.com/
+        title: Software Engineer II
+        description: Projects ranging from video/image processing; developing camera drivers, storage performance tests/GUIs; and system administration scripting and hardware/software installations.
+        highlights: 
+            - Development ranging from C/C++ performance testing suites to Java front-end GUI design and application driven programs.
+        startDate: May, 2007
+        endDate: Oct, 2011
+        

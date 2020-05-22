@@ -1,42 +1,43 @@
 <template>
-  <div class="home">
-    <div>
-      <b-progress :value="value" :max="max" show-progress animated></b-progress>
-      <b-progress class="mt-2" :max="max" show-value>
-        <b-progress-bar :value="value * (6 / 10)" variant="success"></b-progress-bar>
-        <b-progress-bar :value="value * (2.5 / 10)" variant="warning"></b-progress-bar>
-        <b-progress-bar :value="value * (1.5 / 10)" variant="danger"></b-progress-bar>
-      </b-progress>
+  <div class="Career">
+    <b-container>
+      <h1>Experience</h1>
 
-      <b-button class="mt-3" @click="randomValue">Click me</b-button>
-    </div>
-    <b-container fluid="xl">
-      <b-card-group>
-        <b-row>
-          <b-col v-for="item in myJson" v-bind:key="item.text">
-            <CompanyCard v-bind:job="item"></CompanyCard>
-          </b-col>
-        </b-row>
-      </b-card-group>
+      <div v-for="job in resume.work" v-bind:key="job.startDate">
+        <CompanyAccordion v-bind:job="job"></CompanyAccordion>
+      </div>
+
+      <h1>Technical Skills</h1>
+
+      <div v-for="skill in resume.skills.technical" v-bind:key="skill.name">
+        <Skillset v-bind:skill="skill"></Skillset>
+      </div>
+
+      <h1>Leadership Skills</h1>
+      <div v-for="skill in resume.skills.leadership" v-bind:key="skill.name">
+        <Skillset v-bind:skill="skill"></Skillset>
+      </div>
     </b-container>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import CompanyCard from "@/components/CompanyCard.vue";
-import json from "../data/resume.json";
+import CompanyAccordion from "@/components/CompanyAccordion.vue";
+import Skillset from "@/components/Skillset.vue";
+import resume from "js-yaml-loader!../data/resume.yaml";
 
 export default {
   name: "Career",
   components: {
-    CompanyCard
+    CompanyAccordion,
+    Skillset
   },
   data() {
     return {
       value: 45,
       max: 100,
-      myJson: json
+      resume
     };
   },
   methods: {
@@ -46,3 +47,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.card-deck {
+  margin-top: 1em;
+}
+</style>
