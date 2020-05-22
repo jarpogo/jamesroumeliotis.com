@@ -55,7 +55,6 @@ export default {
 .card-img {
   height: 8vw;
   object-fit: scale-down;
-  background-color: darkgray;
   padding: 5px;
 }
 
