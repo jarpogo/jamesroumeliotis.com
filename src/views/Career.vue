@@ -11,10 +11,13 @@
       <b-button class="mt-3" @click="randomValue">Click me</b-button>
     </div>
     <b-container fluid="xl">
-      <b-row v-for="item in myJson" v-bind:key="item.text">
-        {{ item }}
-        <CompanyCard></CompanyCard>
-      </b-row>
+      <b-card-group>
+        <b-row>
+          <b-col v-for="item in myJson" v-bind:key="item.text">
+            <CompanyCard v-bind:job="item"></CompanyCard>
+          </b-col>
+        </b-row>
+      </b-card-group>
     </b-container>
   </div>
 </template>

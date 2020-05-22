@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <b-container fluid="xl">
-      <hr />
+      <br />
       <b-jumbotron class="text-left" bg-variant="dark" text-variant="white" border-variant="dark">
         <template v-slot:header>
           <b-img fluid alt="Responsive image" rounded="circle" :src="require('../assets/me.png')"></b-img>
@@ -12,9 +12,10 @@
         <hr class="my-4" />
 
         <p>Mission Statement</p>
+        <p>A description of my mission statement, vision, and beliefs</p>
       </b-jumbotron>
 
-      <hr />
+      <br />
     </b-container>
   </div>
 </template>

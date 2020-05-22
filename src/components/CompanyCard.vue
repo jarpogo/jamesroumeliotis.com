@@ -1,57 +1,26 @@
 <template>
   <div>
-    <b-container fluid="xl">
-      <b-row>
-        <b-card-group deck>
-          <b-card
-            title="Cimpress Technology"
-            sub-title="Manager, Cloud Engineering"
-            :img-src="require('../assets/company_logos/cimpress.png')"
-            img-alt="Verizon Logo"
-            img-top
-            tag="article"
-            style="max-width: 30rem;"
-            class="mb-3"
-          >
-            <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-          </b-card>
-          <b-card
-            title="Veracode"
-            sub-title="Manager, Site Reliability Engineering"
-            :img-src="require('../assets/company_logos/veracode.png')"
-            img-alt="Verizon Logo"
-            img-top
-            tag="article"
-            style="max-width: 30rem;"
-            class="mb-3"
-          >
-            <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-          </b-card>
-          <b-card
-            title="Eliza Corporation"
-            sub-title="Manager, DevOps"
-            :img-src="require('../assets/company_logos/eliza.png')"
-            img-alt="Verizon Logo"
-            img-top
-            tag="article"
-            style="max-width: 30rem;"
-            class="mb-3"
-          >
-            <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-          </b-card>
-        </b-card-group>
-      </b-row>
-    </b-container>
+    <b-card
+      img-alt="Verizon Logo"
+      img-top
+      tag="job"
+      style="max-width: 30rem;"
+      border-variant="dark"
+    >
+      <b-card-img class="mb-2" :src="require('../assets/company_logos/cimpress.png')"></b-card-img>
+      <b-card-title>{{job.company}}</b-card-title>
+      <b-card-sub-title class="mb-2">{{job.title}}</b-card-sub-title>
+      <b-card-sub-title class="mb-3">{{job.startDate}} - {{job.endDate}}</b-card-sub-title>
+      <b-card-text>{{job.description}}</b-card-text>
+      <b-button href="#" variant="primary">More</b-button>
+    </b-card>
   </div>
 </template>
 
 <script>
+export default {
+  props: ["job"]
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
