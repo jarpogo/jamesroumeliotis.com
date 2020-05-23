@@ -1,24 +1,23 @@
 <template>
   <div class="Career">
     <b-container>
-      <h1>Experience</h1>
-
+      <h1 class="mt-3">Professional Experience</h1>
       <div v-for="job in resume.work" v-bind:key="job.startDate">
         <CompanyAccordion v-bind:job="job"></CompanyAccordion>
       </div>
 
-      <h1>Technical Skills</h1>
+      <h1 class="mt-3">Technical Skills</h1>
 
       <div v-for="skill in resume.skills.technical" v-bind:key="skill.name">
         <Skillset v-bind:skill="skill"></Skillset>
       </div>
 
-      <h1>Leadership Skills</h1>
+      <h1 class="mt-3">Leadership Skills</h1>
       <div v-for="skill in resume.skills.leadership" v-bind:key="skill.name">
         <Skillset v-bind:skill="skill"></Skillset>
       </div>
 
-      <h1>Organization Skills</h1>
+      <h1 class="mt-3">Organization Skills</h1>
       <div v-for="skill in resume.skills.organization" v-bind:key="skill.name">
         <Skillset v-bind:skill="skill"></Skillset>
       </div>

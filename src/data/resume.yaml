@@ -81,6 +81,20 @@ work:
             - Insert highlights
         startDate: Dec, 2018
         endDate: Jun, 2020
+        technology: 
+            - artifactory
+            - auth0
+            - aws
+            - bootstrap
+            - cloudability
+            - cloudsploit
+            - gcp
+            - gitlab
+            - sumologic
+            - prisma
+            - python
+            - slack
+            - vue
     -
         company: Veracode
         logo: veracode.png
@@ -96,6 +110,17 @@ work:
             - Key leader in the FedRAMP audit with our 3PAO to provide evidence for CIS level 1 hardening and IL2 
         startDate: Oct, 2017
         endDate: Dec, 2018
+        technology: 
+            - artifactory
+            - aws
+            - cloudhealth
+            - fedramp
+            - gitlab
+            - sumologic
+            - prisma
+            - python
+            - slack
+            - terraform
     -
         company: Eliza Corporation
         logo: eliza.png
@@ -112,6 +137,19 @@ work:
             - Architected, designed, and implemented a File Tracking tool using Python, giving the business complete insight into where Client data resides within the platform lifecycle
         startDate: May, 2015
         endDate: Oct, 2017
+        technology: 
+            - ansible
+            - aws
+            - cloudhealth
+            - datadog
+            - github
+            - jenkins
+            - okta
+            - sumologic
+            - prisma
+            - python
+            - slack
+            - terraform
     -
         company: Verizon
         logo: verizon.png
@@ -125,6 +163,11 @@ work:
             - Team lead in infrastructure upgrades, datacenter genesis, and the DevOps Feature Team
         startDate: Nov, 2013
         endDate: May, 2015
+        technology:
+            - ansible 
+            - gitlab
+            - python
+            - xen
     -
         company: Tyco
         logo: tyco.png
@@ -135,6 +178,10 @@ work:
             - Developing in a linux environment (SuSE) primarily using tcpdump, wireshark, and of course gdb as the goto debugging tools.
         startDate: Oct, 2011
         endDate: Nov, 2013
+        technology: 
+            - c++
+            - jenkins
+            - nagios
     -
         company: ITT
         logo: itt.png
@@ -145,4 +192,7 @@ work:
             - Development ranging from C/C++ performance testing suites to Java front-end GUI design and application driven programs.
         startDate: May, 2007
         endDate: Oct, 2011
+        technology: 
+            - c++
+            - java
         

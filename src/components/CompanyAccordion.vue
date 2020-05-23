@@ -3,23 +3,43 @@
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-button block v-b-toggle="'collapse' + job.logo" variant="secondary">
-          <span
+          <div
             algin-v="center"
             style="float:left"
             class="title font-weight-light"
-          >{{job.title}} - {{job.company}}</span>
-          <span style="float:right;margin-right:10px">{{job.startDate}} - {{job.endDate}}</span>
+          >{{job.title}} - {{job.company}}</div>
+          <div style="float:right;margin-right:10px">{{job.startDate}} - {{job.endDate}}</div>
         </b-button>
       </b-card-header>
       <b-collapse accordion="my-accordion" v-bind:id="'collapse' +job.logo" class="mt-2 text-left">
         <b-card-body>
           <b-card-img align-self="start" :src="require('../assets/company_logos/' + job.logo)"></b-card-img>
+          <br />
+
+          <b-row aligh-h="left">
+            <h5>Summary</h5>
+          </b-row>
           <h6>{{job.description}}</h6>
+          <br />
+          <b-row aligh-h="left">
+            <h5>Highlights</h5>
+          </b-row>
           <ul>
             <li v-for="(hl, index) in job.highlights" :key="index">{{hl}}</li>
           </ul>
           <br />
-          <!-- <p class="card-text">{{job.highlights}}</p> -->
+
+          <b-row aligh-h="left">
+            <h5>Technologies</h5>
+          </b-row>
+          <b-row class="mb-2" align-h="center">
+            <div v-for="(tech, index) in job.technology" :key="index">
+              <b-col div v-b-tooltip.hover :title="tech">
+                <b-img class="icon" :src="require('../assets/icons/' + tech + '.png')"></b-img>
+              </b-col>
+            </div>
+          </b-row>
+          <br />
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -45,6 +65,10 @@ export default {
   padding-right: 0em;
   padding-left: 0em;
 }
+.icon {
+  height: 3em;
+  background-color: white;
+}
 .card {
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -62,8 +86,8 @@ export default {
 }
 
 .card-body {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-top: 0;
 }
 

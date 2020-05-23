@@ -21,7 +21,6 @@
             <li v-for="(hl, index) in job.highlights" :key="index">{{hl}}</li>
           </ul>
           <br />
-          <!-- <p class="card-text">{{job.highlights}}</p> -->
         </b-collapse>
       </b-card>
     </b-col>
