@@ -3,73 +3,6 @@ about:
         - As an experienced Engineering leader and WPI graduate, I have seen multiple virtualization technologies across various cloud environments in different industries, allowing me to bring a pragmatic approach to tooling, automation, and implementing enterprise-level standards that best fit an organizations ecosystem.  Fluent in agile methodologies, focusing on Scrum and Kanban has allowed me to drive the direction of the team to optimize technology, save the organization money, and bring transparency into the business to streamline the production value of the Engineering department.  Capable of running in parallel; I continue day-to-day operations while recognizing, and taking advantage of, the opportunities to innovate.
         - I flourish in an open/synchronous business where adaptive collaboration and consensus-building thrives.  I enjoy pursuing change that aligns the business towards more successful ventures.  Organizations that see the value in constructing enterprise-solutions will see their investment achieve top-tier returns while I am involved.  Let's build a better future, together.
 
-skills:
-    technical:
-        -
-            name: AWS
-            value: 9
-            variant: success
-        -
-            name: Python
-            value : 8
-            variant: success
-        -
-            name: GitLab
-            value: 8
-            variant: success
-        -
-            name: Linux
-            value: 8
-            variant: success
-        -
-            name: Terraform
-            value: 6
-            variant: warning
-        -
-            name: Node
-            value: 6
-            variant: warning
-
-    organization:
-        -
-            name: Scrum
-            value: 9
-            variant: success
-        -   
-            name: OKR
-            value: 8 
-            variant: success
-        -
-            name: Kanban
-            value: 7 
-            variant: success
-        -
-            name: SAFe
-            value: 5 
-            variant: warning
-        
-    leadership:
-        -
-            name: People Management
-            value: 9
-            variant: success
-        -
-            name: Communication
-            value: 8
-            variant: success
-        -
-            name: Planning
-            value: 8
-            variant: success
-        -
-            name: Strategy
-            value: 7
-            variant: success
-        - 
-            name: Crisis Managment
-            value: 6
-            variant: warning
-
 work:
     -
         company: Cimpress Technology
@@ -195,4 +128,82 @@ work:
         technology: 
             - c++
             - java
+
+projects:
+    -
+        title: jamesroumeliotis.com
+        image: tbd.png
+        githubLink: https://github.com/jarpogo/jamesroumeliotis.com
+        description: The website here is a single-page application written in Vue and Bootstrap.  It's hosted in AWS using S3, CloudFront, ACM, and Route53.  The CloudFront distribution allows HTTPS and prevents the need for public access to the S3 bucket. 
+    -
+        title: Smash Ranking
+        image: tbd.png
+        githubLink: https://github.com/jarpogo/smash-ranking
+        description: TBD
+
+skills:
+    technical:
+        -
+            name: AWS
+            value: 9
+            variant: success
+        -
+            name: Python
+            value : 8
+            variant: success
+        -
+            name: GitLab
+            value: 8
+            variant: success
+        -
+            name: Linux
+            value: 8
+            variant: success
+        -
+            name: Terraform
+            value: 6
+            variant: warning
+        -
+            name: Node
+            value: 6
+            variant: warning
+
+    organization:
+        -
+            name: Scrum
+            value: 9
+            variant: success
+        -   
+            name: OKR
+            value: 8 
+            variant: success
+        -
+            name: Kanban
+            value: 7 
+            variant: success
+        -
+            name: SAFe
+            value: 5 
+            variant: warning
         
+    leadership:
+        -
+            name: People Management
+            value: 9
+            variant: success
+        -
+            name: Communication
+            value: 8
+            variant: success
+        -
+            name: Planning
+            value: 8
+            variant: success
+        -
+            name: Strategy
+            value: 7
+            variant: success
+        - 
+            name: Crisis Managment
+            value: 6
+            variant: warning

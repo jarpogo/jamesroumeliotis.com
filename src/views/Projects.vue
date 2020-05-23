@@ -1,10 +1,10 @@
 <template>
   <div class="Projects">
-    <b-container fluid>
+    <b-container>
       <b-card-group deck>
         <b-row align-h="center" mh-100>
-          <div v-for="job in resume.work" v-bind:key="job.startDate">
-            <CompanyCard v-bind:job="job"></CompanyCard>
+          <div v-for="(project, index) in resume.projects" v-bind:key="index">
+            <ProjectCard v-bind:project="project"></ProjectCard>
           </div>
         </b-row>
       </b-card-group>
@@ -14,13 +14,13 @@
 
 <script>
 // @ is an alias to /src
-import CompanyCard from "@/components/CompanyCard.vue";
+import ProjectCard from "@/components/ProjectCard.vue";
 import resume from "js-yaml-loader!../data/resume.yaml";
 
 export default {
   name: "Projects",
   components: {
-    CompanyCard
+    ProjectCard
   },
   data() {
     return {
