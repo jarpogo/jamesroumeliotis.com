@@ -112,7 +112,7 @@ work:
         startDate: Oct, 2011
         endDate: Nov, 2013
         technology: 
-            - c++
+            - cplusplus
             - jenkins
             - nagios
     -
@@ -126,7 +126,7 @@ work:
         startDate: May, 2007
         endDate: Oct, 2011
         technology: 
-            - c++
+            - cplusplus
             - java
 
 projects:
