@@ -13,8 +13,6 @@
           <!-- <b-nav-item to="/personal">Personal</b-nav-item> -->
         </b-navbar-nav>
 
-        <!-- </b-navbar-nav> -->
-
         <b-navbar-nav class="ml-auto">
           <b-nav-item
             href="https://linkedin.com/in/jarpogo"
@@ -34,9 +32,6 @@
             title="Twitter"
           >
             <b-img height="50" :src="require('./assets/icons/twitter.png')">g</b-img>
-          </b-nav-item>
-          <b-nav-item href="https://vimeo.com/jarpogo" target="_blank" v-b-tooltip title="Vimeo">
-            <b-img height="50" :src="require('./assets/icons/vimeo.png')"></b-img>
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -61,16 +56,13 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
 #nav {
   padding: 30px;
 }
-
 #nav a {
   font-weight: bold;
   color: #2c3e50;
 }
-
 #nav a.router-link-exact-active {
   color: #42b983;
 }

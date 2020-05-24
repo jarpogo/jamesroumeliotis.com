@@ -8,7 +8,11 @@
             style="float:left"
             class="title font-weight-light"
           >{{job.title}} - {{job.company}}</div>
-          <div style="float:right;margin-right:10px">{{job.startDate}} - {{job.endDate}}</div>
+          <div style="float:right;margin-right:10px">
+            {{job.startDate}} - {{job.endDate}}
+            <b-icon icon="blank"></b-icon>
+            <b-icon icon="chevron-down"></b-icon>
+          </div>
         </b-button>
       </b-card-header>
       <b-collapse accordion="my-accordion" v-bind:id="'collapse' +job.logo" class="mt-2 text-left">
