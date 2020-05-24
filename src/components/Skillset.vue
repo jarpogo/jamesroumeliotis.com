@@ -1,11 +1,4 @@
 <template>
-  <!-- <div>
-    <div class="col">{{skill.name}}</div>
-    <div class="col-sm-11 pt-1">
-      <b-progress :value="80"></b-progress>
-    </div>
-  </div>-->
-
   <div class="row mb-1">
     <div class="col-sm-1" text-align="left">{{ skill.name }}:</div>
     <div class="col-sm-11 pt-1">

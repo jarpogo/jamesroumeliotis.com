@@ -17,15 +17,23 @@
 
         <b-navbar-nav class="ml-auto">
           <b-nav-item
+            href="https://linkedin.com/in/jarpogo"
+            target="_blank"
+            v-b-tooltip
+            title="LinkedIn"
+          >
+            <b-img height="50" :src="require('./assets/icons/linkedin.png')"></b-img>
+          </b-nav-item>
+          <b-nav-item href="https://github.com/jarpogo" target="_blank" v-b-tooltip title="GitHub">
+            <b-img height="50" :src="require('./assets/icons/github.png')"></b-img>
+          </b-nav-item>
+          <b-nav-item
             href="https://twitter.com/JarPogo"
             target="_blank"
             v-b-tooltip
             title="Twitter"
           >
             <b-img height="50" :src="require('./assets/icons/twitter.png')">g</b-img>
-          </b-nav-item>
-          <b-nav-item href="https://github.com/jarpogo" target="_blank" v-b-tooltip title="GitHub">
-            <b-img height="50" :src="require('./assets/icons/github.png')"></b-img>
           </b-nav-item>
           <b-nav-item href="https://vimeo.com/jarpogo" target="_blank" v-b-tooltip title="Vimeo">
             <b-img height="50" :src="require('./assets/icons/vimeo.png')"></b-img>

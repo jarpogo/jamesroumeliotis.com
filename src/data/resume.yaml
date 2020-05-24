@@ -132,14 +132,47 @@ work:
 projects:
     -
         title: jamesroumeliotis.com
-        image: tbd.png
+        year: 2020
+        image: website.png
         githubLink: https://github.com/jarpogo/jamesroumeliotis.com
-        description: The website here is a single-page application written in Vue and Bootstrap.  It's hosted in AWS using S3, CloudFront, ACM, and Route53.  The CloudFront distribution allows HTTPS and prevents the need for public access to the S3 bucket. 
+        description: This website  is a single-page application written in Vue and Bootstrap.  It's hosted in AWS using S3, CloudFront, ACM, and Route53.  The CloudFront distribution allows HTTPS and prevents the need for public access to the S3 bucket. 
+        technology:
+            - aws
+            - bootstrap
+            - vue
+
     -
         title: Smash Ranking
-        image: tbd.png
+        year: 2019
+        image: smashbros.png
         githubLink: https://github.com/jarpogo/smash-ranking
-        description: TBD
+        description: The competitive gaming community for Super Smash Bros struggles with ranking players beyond the top 50 worldwide.  This project gathers tournament results of competitors via API calls to Smash.gg and Challonge.  The data is stored in a neo4j graphing database that can be used to rank players based on defined heuristics.
+        technology:
+            - aws
+            - challonge
+            - neo4j
+            - python
+            - smashgg
+    -
+        title: Bounce Counter 
+        year: 2013
+        image: bouncecounter.png
+        githubLink: https://github.com/jarpogo/bounce-counter
+        description: Aimming to improve the viewing experience of a live pogo sticking world record attempt, this program displays pogo stick bounces in real-time.  Using an arduino board connected to a safety mat, JavaFX takes in the signal and displays each bounce sensed by the mat.
+        technology:
+            - arduino
+            - java
+    -
+        title: Pogopalooza Judge App
+        year: 2012  
+        image: judgeapp.png
+        githubLink: https://github.com/jarpogo/pogopalooza-judge-app
+        description: Judges for the competitive pogoing scene struggled with ranking competitors.  This android application
+        technology:
+            - android
+            - java
+            - php
+            - mysql
 
 skills:
     technical:

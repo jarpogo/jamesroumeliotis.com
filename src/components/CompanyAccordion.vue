@@ -13,7 +13,7 @@
       </b-card-header>
       <b-collapse accordion="my-accordion" v-bind:id="'collapse' +job.logo" class="mt-2 text-left">
         <b-card-body>
-          <b-card-img align-self="start" :src="require('../assets/company_logos/' + job.logo)"></b-card-img>
+          <b-card-img align-self="start" :src="require('../assets/company-logos/' + job.logo)"></b-card-img>
           <br />
 
           <b-row aligh-h="left">
