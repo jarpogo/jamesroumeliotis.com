@@ -100,7 +100,7 @@ export default {
 }
 
 .logo {
-  width: 18em;
+  width: 16em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
