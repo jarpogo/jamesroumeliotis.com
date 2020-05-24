@@ -42,7 +42,7 @@
           </b-row>
           <b-row class="mb-2" align-h="center">
             <div v-for="(tech, index) in job.technology" :key="index">
-              <b-col div v-b-tooltip.hover :title="tech">
+              <b-col class="mb-2" div v-b-tooltip.hover :title="tech">
                 <b-img class="icon" :src="require('../assets/icons/' + tech + '.png')"></b-img>
               </b-col>
             </div>
