@@ -13,15 +13,19 @@
       </b-card-header>
       <b-collapse accordion="my-accordion" v-bind:id="'collapse' +job.logo" class="mt-2 text-left">
         <b-card-body>
-          <b-card-img align-self="start" :src="require('../assets/company-logos/' + job.logo)"></b-card-img>
-          <br />
+          <b-img
+            center
+            class="logo"
+            align-self="start"
+            :src="require('../assets/company-logos/' + job.logo)"
+          ></b-img>
 
-          <b-row aligh-h="left">
+          <b-row align-h="left">
             <h5>Summary</h5>
           </b-row>
           <h6>{{job.description}}</h6>
           <br />
-          <b-row aligh-h="left">
+          <b-row align-h="left">
             <h5>Highlights</h5>
           </b-row>
           <ul>
@@ -89,6 +93,12 @@ export default {
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 0;
+}
+
+.logo {
+  width: 18em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 ul {
