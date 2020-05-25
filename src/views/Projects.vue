@@ -13,7 +13,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import ProjectCard from "@/components/ProjectCard.vue";
 import resume from "js-yaml-loader!../data/resume.yaml";
 

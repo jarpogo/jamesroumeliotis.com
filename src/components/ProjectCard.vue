@@ -10,7 +10,6 @@
         mh-100
         :img-src="require('../assets/project-images/' + project.image)"
       >
-        <!-- <b-card-img class="mb-2" :src="require('../assets/project-images/' + project.image)"></b-card-img> -->
         <b-card-title>{{project.title}}</b-card-title>
         <b-card-sub-title class="mb-2">Created {{project.year}}</b-card-sub-title>
         <b-card-text class="text-left">{{project.description}}</b-card-text>

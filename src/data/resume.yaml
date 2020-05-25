@@ -1,7 +1,13 @@
 about:
+    name: Pogo
+    headline: Advancing teams' potential through authentic leadership personalized for the individual
     mission: 
-        - As an experienced Engineering leader and WPI graduate, I have seen multiple virtualization technologies across various cloud environments in different industries, allowing me to bring a pragmatic approach to tooling, automation, and implementing enterprise-level standards that best fit an organizations ecosystem.  Fluent in agile methodologies, focusing on Scrum and Kanban has allowed me to drive the direction of the team to optimize technology, save the organization money, and bring transparency into the business to streamline the production value of the Engineering department.  Capable of running in parallel; I continue day-to-day operations while recognizing, and taking advantage of, the opportunities to innovate.
-        - I flourish in an open/synchronous business where adaptive collaboration and consensus-building thrives.  I enjoy pursuing change that aligns the business towards more successful ventures.  Organizations that see the value in constructing enterprise-solutions will see their investment achieve top-tier returns while I am involved.  Let's build a better future, together.
+        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. 
+        - Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Lorem mollis aliquam ut porttitor. 
+    values:
+        - Pharetra diam sit amet nisl suscipit adipiscing bibendum est. 
+        - Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. 
+        - Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Sit amet justo donec enim diam. 
 
 work:
     -
