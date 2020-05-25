@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar sticky toggleable="lg" type="dark" variant="dark">
+    <b-navbar sticky toggleable="sm" type="dark" variant="dark">
       <!-- <b-navbar-nav> -->
       <b-navbar-brand class="my-3" to="/">Pogo</b-navbar-brand>
 
