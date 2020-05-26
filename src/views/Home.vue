@@ -38,6 +38,36 @@
         </ul>
       </b-card>
     </b-container>
+
+    <b-container>
+      <hr class="my-4 linebreak" />
+      <b-card bg-variant="dark" text-variant="white" border-variant="dark">
+        <h1 class="text-left">Certificates</h1>
+        <b-link
+          href="https://www.youracclaim.com/badges/47b91311-5b00-45e0-949d-131475da6617/public_url"
+          target="_blank"
+        >
+          <b-img
+            height="150"
+            class="icon"
+            :src="require('../assets/certificates/aws-sa-associate.png')"
+          ></b-img>
+        </b-link>
+
+        <b-link
+          href="https://www.guinnessworldrecords.com/world-records/most-consecutive-pogo-stick-jumps-(male)?fb_comment_id=688888124542282_755729441191483"
+          target="_blank"
+        >
+          <b-img
+            height="150"
+            class="icon"
+            :src="require('../assets/certificates/guinness-world-records.png')"
+          ></b-img>
+        </b-link>
+      </b-card>
+
+      <br />
+    </b-container>
   </div>
 </template>
 
@@ -56,6 +86,10 @@ export default {
 <style scoped>
 .linebreak {
   background-color: #ccc;
+}
+
+.icon {
+  margin: 1em;
 }
 
 @media screen and (max-width: 640px) {

@@ -1,6 +1,6 @@
 about:
     name: Pogo
-    headline: Advancing teams' potential through authentic leadership personalized for the individual
+    headline: Advancing teams' potential through personalized leadership
     mission: 
         - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. 
         - Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Lorem mollis aliquam ut porttitor. 
@@ -15,9 +15,14 @@ work:
         logo: cimpress.png
         website: https://cimpress.com/
         title: Manager, Cloud Engineering
-        description: Managed a team of three (3) engineers who specialized in cloud technologies and security.
+        description: Led a team of 3 cloud engineers collaborating with a global customer base consisting of 246 AWS accounts and 28 GCP projects following the core pillars of Security, Cost Effectivness, and Scalability.  Faced with a large decentralized enterprise, we strove to enable developers throughout all businesses to improve by implementing abstract tooling making their jobs easier to perform.
         highlights: 
-            - Insert highlights
+            - Introduced the agile framework scrum to the team in order to streamline project development and quarterly commitments.
+            - Implemented documentation templates to remove tribal knowledge and lower onboarding time of new team members.
+            - Saved ~$7MM/yr through a combination of savings strategies, decommissioning of a shared AWS account, and multi-year vendor negotiations with businesses such as Cloudability.
+            - Raised our security baselines with the introduction of GuardDuty, centralized VPC Flow/CloudTrail logs to Splunk, and new automated vulnerability remediation tooling.
+            - Drove a redesign of our STS keygen application using GoLang and Equinox.io to increase security and simplify accessibility of access keys. 
+            - Lowered security violations 25% across all AWS linked accounts.
         startDate: Dec, 2018
         endDate: Jun, 2020
         technology: 
@@ -28,12 +33,16 @@ work:
             - cloudability
             - cloudsploit
             - gcp
+            - golang
             - gitlab
+            - jira
+            - splunk
             - sumologic
             - prisma
             - python
             - slack
             - vue
+            - zendesk
     -
         company: Veracode
         logo: veracode.png
@@ -55,6 +64,7 @@ work:
             - cloudhealth
             - fedramp
             - gitlab
+            - jira
             - sumologic
             - prisma
             - python
@@ -83,6 +93,7 @@ work:
             - datadog
             - github
             - jenkins
+            - jira
             - okta
             - sumologic
             - prisma
@@ -105,8 +116,10 @@ work:
         technology:
             - ansible 
             - gitlab
+            - nagios
             - python
             - xen
+            - zendesk
     -
         company: Tyco
         logo: tyco.png
@@ -120,7 +133,7 @@ work:
         technology: 
             - cplusplus
             - jenkins
-            - nagios
+            - onvif
     -
         company: ITT
         logo: itt.png

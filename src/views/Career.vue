@@ -5,6 +5,15 @@
         <CompanyAccordion v-bind:job="job"></CompanyAccordion>
       </div>
     </b-container>
+
+    <b-container>
+      <div
+        data-iframe-width="150"
+        data-iframe-height="270"
+        data-share-badge-id="47b91311-5b00-45e0-949d-131475da6617"
+        data-share-badge-host="https://www.youracclaim.com"
+      ></div>
+    </b-container>
   </div>
 </template>
 

@@ -14,6 +14,10 @@
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
+          <b-nav-item href="https://github.com/jarpogo" target="_blank" v-b-tooltip title="GitHub">
+            <b-img height="50" :src="require('./assets/icons/github.png')"></b-img>
+          </b-nav-item>
+
           <b-nav-item
             href="https://linkedin.com/in/jarpogo"
             target="_blank"
@@ -22,9 +26,7 @@
           >
             <b-img height="50" :src="require('./assets/icons/linkedin.png')"></b-img>
           </b-nav-item>
-          <b-nav-item href="https://github.com/jarpogo" target="_blank" v-b-tooltip title="GitHub">
-            <b-img height="50" :src="require('./assets/icons/github.png')"></b-img>
-          </b-nav-item>
+
           <b-nav-item
             href="https://twitter.com/JarPogo"
             target="_blank"
