@@ -1,5 +1,5 @@
 <template>
-  <div class="personal">
+  <div class="Personal">
     <b-container fluid="xl">
       <b-carousel
         id="carousel"

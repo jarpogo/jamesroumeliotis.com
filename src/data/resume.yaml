@@ -5,9 +5,25 @@ about:
         - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. 
         - Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Lorem mollis aliquam ut porttitor. 
     values:
-        - Pharetra diam sit amet nisl suscipit adipiscing bibendum est. 
-        - Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. 
-        - Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Sit amet justo donec enim diam. 
+        - Sunlight is the best disinfectant; be transparent.
+        - Assume positive intent.
+        - EQ is as important as IQ.
+        - Use data to drive decisions.
+        - Make it easy for others to do the right thing.
+        - Drink your own champagne; if you made it, use it.
+        - Be able to explain concepts to a 5 year-old.
+    certificates:
+        -
+            name: aws-cloud-practitioner
+            link: https://www.youracclaim.com/badges/706a4539-fa95-4608-80f8-b3bd35865c6d/public_url
+        -
+            name: aws-sa-associate
+            link: https://www.youracclaim.com/badges/47b91311-5b00-45e0-949d-131475da6617/public_url
+        -
+            name: guinness-world-records
+            link: https://www.guinnessworldrecords.com/world-records/most-consecutive-pogo-stick-jumps-(male)?fb_comment_id=688888124542282_755729441191483
+
+
 
 work:
     -
@@ -115,7 +131,7 @@ work:
         endDate: May, 2015
         technology:
             - ansible 
-            - gitlab
+            - github
             - nagios
             - python
             - xen
@@ -146,7 +162,9 @@ work:
         endDate: Oct, 2011
         technology: 
             - cplusplus
+            - cuda
             - java
+            - subversion
 
 projects:
     -

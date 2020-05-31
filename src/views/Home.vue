@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="Home">
     <b-container>
       <br />
       <b-jumbotron
@@ -43,29 +43,18 @@
       <hr class="my-4 linebreak" />
       <b-card bg-variant="dark" text-variant="white" border-variant="dark">
         <h1 class="text-left">Certificates</h1>
-        <b-link
-          href="https://www.youracclaim.com/badges/47b91311-5b00-45e0-949d-131475da6617/public_url"
-          target="_blank"
-        >
-          <b-img
-            height="150"
-            class="icon"
-            :src="require('../assets/certificates/aws-sa-associate.png')"
-          ></b-img>
-        </b-link>
-
-        <b-link
-          href="https://www.guinnessworldrecords.com/world-records/most-consecutive-pogo-stick-jumps-(male)?fb_comment_id=688888124542282_755729441191483"
-          target="_blank"
-        >
-          <b-img
-            height="150"
-            class="icon"
-            :src="require('../assets/certificates/guinness-world-records.png')"
-          ></b-img>
-        </b-link>
+        <b-row align-h="center">
+          <div v-for="(cert, index) in resume.certificates" v-bind:key="index">
+            <b-link :href="cert.link" target="_blank">
+              <b-img
+                height="150"
+                class="icon"
+                :src="require('../assets/certificates/' + cert.name + '.png')"
+              ></b-img>
+            </b-link>
+          </div>
+        </b-row>
       </b-card>
-
       <br />
     </b-container>
   </div>
@@ -75,6 +64,8 @@
 import resume from "js-yaml-loader!../data/resume.yaml";
 
 export default {
+  name: "Home",
+  components: {},
   data() {
     return {
       resume: resume.about

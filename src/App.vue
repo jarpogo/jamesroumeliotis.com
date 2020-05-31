@@ -2,7 +2,7 @@
   <div id="app">
     <b-navbar sticky toggleable="sm" type="dark" variant="dark">
       <!-- <b-navbar-nav> -->
-      <b-navbar-brand class="my-3" to="/">Pogo</b-navbar-brand>
+      <b-navbar-brand class="brand" to="/">Pogo</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -10,7 +10,6 @@
         <b-navbar-nav>
           <b-nav-item to="/career">Career</b-nav-item>
           <b-nav-item to="/projects">Projects</b-nav-item>
-          <!-- <b-nav-item to="/personal">Personal</b-nav-item> -->
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
@@ -63,9 +62,14 @@ export default {
 }
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color: white;
 }
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+.brand {
+  font-weight: bold;
+  font-size: 50em;
 }
 </style>
