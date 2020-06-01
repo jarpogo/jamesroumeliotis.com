@@ -8,8 +8,8 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/career">Career</b-nav-item>
-          <b-nav-item to="/projects">Projects</b-nav-item>
+          <b-nav-item class="page" to="/career">Career</b-nav-item>
+          <b-nav-item class="page" to="/projects">Projects</b-nav-item>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
@@ -70,6 +70,10 @@ export default {
 }
 .brand {
   font-weight: bold;
-  font-size: 50em;
+  font-size: 2em;
+}
+
+.page {
+  font-size: 1.5em;
 }
 </style>
