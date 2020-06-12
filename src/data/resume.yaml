@@ -2,11 +2,10 @@ about:
     name: Pogo
     headline: Advancing teams' potential through personalized leadership
     mission: 
-        - As an engineering leader, I have experience with cloud environments across various industries. I bring a pragmatic approach to tooling, automation, and implementing enterprise-level standards tailored to any ecosystem. 
-        - Fluent in Agile methodologies, I drive the direction of a department to optimize technology, cut costs, and bring operational transparency into the business. I achieve this through empathetic and authentic relationships with my peers combined with technical skills.
-
+        - Engineering leader, with experience in cloud environments across various industries. Pragmatic approach to tooling, automation, and implementing enterprise-level standards tailored to any ecosystem. 
+        - Fluent in Agile methodologies, drive the direction of a department to optimize technology, cut costs, and bring operational transparency into the business. Achieve this through empathetic and authentic relationships with peers combined with technical skills.
     values:
-        - Sunlight is the best disinfectant; be transparent.
+        - Be as transparent as possible.
         - Assume positive intent.
         - EQ is as important as IQ.
         - Use data to drive decisions.
@@ -32,15 +31,15 @@ work:
         logo: cimpress.png
         website: https://cimpress.com/
         title: Manager, Cloud Engineering
-        description: Led a team of 3 cloud engineers collaborating with a global customer base consisting of 246 AWS accounts and 28 GCP projects following the core pillars of Security, Cost Effectivness, and Scalability.  Faced with a large decentralized enterprise, we strove to enable developers throughout all businesses to improve by implementing abstract tooling making their jobs easier to perform.
+        description: Led a team of 3 cloud engineers collaborating with a global customer base consisting of 246 AWS accounts. Faced with a large decentralized enterprise, we strove to promote Security, Cost Effectiveness, and Scalability.
         highlights: 
-            - Introduced the agile framework scrum to the team in order to streamline project development and quarterly commitments.
-            - Implemented documentation templates to remove tribal knowledge and lower onboarding time of new team members.
+            - Introduced the agile framework Scrum to streamline project development and quarterly commitments for the team.
+            - Implemented documentation templates to remove tribal knowledge and lower onboarding time of new team members by days.
             - Saved ~$7MM/yr through a combination of savings strategies, decommissioning of a shared AWS account, and multi-year vendor negotiations with businesses such as Cloudability.
-            - Raised our security baselines with the introduction of GuardDuty, centralized VPC Flow/CloudTrail logs to Splunk, and new automated vulnerability remediation tooling.
-            - Drove a redesign of our STS keygen application using GoLang and Equinox.io to increase security and simplify accessibility of access keys. 
+            - Increased security baselines with GuardDuty, centralized VPC Flow/CloudTrail logs to Splunk, and new auto-remediation tooling.
+            - Drove a redesign of STS keygen app using GoLang and Equinox.io to increase security and simplify accessibility of access keys.
             - Lowered security violations 25% across all AWS linked accounts.
-        startDate: Dec, 2018
+        startDate: 2018
         endDate: Jun, 2020
         technology: 
             - artifactory
@@ -65,16 +64,16 @@ work:
         logo: veracode.png
         website: https://www.veracode.com/
         title: Manager, Site Reliability Engineering
-        description: Brought on to create a vision for DevOps, build a larger team, and be a key leader for both FedRAMP and our Cloud Infrastructure throughout the organization. Working in an agile shop using the Scaled Agile Framework for enterprises (SAFe). 
+        description: Created a DevOps vision, built a large team, and a key leader for both FedRAMP and Cloud Infrastructure throughout the organization using SAFe.
         highlights: 
-            - Initiated a DevOps portfolio at Veracode concentrating on Automation, Infrastructure as Code, and Workflows (CI/CD) throughout all product teams within Engineering centralized around AWS 
-            - Evaluated business-needs to implement the desired strategy and grew a team of 3 engineers to 12 
-            - Reduced monthly spend by 15% within our cloud infrastructure by targeting poor habits with unattached EBS volumes, EIPs, and Snapshots 
-            - Delivered a rearchitected implementation of the Datacenter monolith within AWS GovCloud by managing a group of 4 developers for the FedRAMP milestone 
-            - Through timeline adjustments, re-prioritization, and continuous involvement in the SDLC of our FedRAMP initiative, we became feature complete and finalized the audit for ATO 
-            - Key leader in the FedRAMP audit with our 3PAO to provide evidence for CIS level 1 hardening and IL2 
-        startDate: Oct, 2017
-        endDate: Dec, 2018
+            - Initiated a DevOps portfolio concentrating on Automation, Infrastructure as Code, and Workflows (CI/CD) throughout all teams within Engineering centralized around AWS.
+            - Evaluated business-needs to implement the desired strategy and grew a team of 3 engineers to 12.
+            - Reduced monthly spend by 15% within our cloud infrastructure by targeting poor habits with unattached EBS volumes, EIPs, and Snapshots.
+            - Delivered a rearchitected implementation of the Datacenter monolith within AWS GovCloud by managing a group of 4 developers for the FedRAMP milestone.
+            - Through timeline adjustments, re-prioritization, and continuous involvement in the SDLC of our FedRAMP initiative, we achieved Authority to Operate(ATO).
+            - Key leader in the FedRAMP audit with our 3PAO to provide evidence for CIS level 1 hardening and IL2. 
+        startDate: 2017
+        endDate: 2018
         technology: 
             - artifactory
             - aws
@@ -92,7 +91,7 @@ work:
         logo: eliza.png
         website: https://www.hms.com/eliza/
         title: Manager, DevOps
-        description: Hired to lead a team of seven DevOps/Site Reliability Engineers with a focus on implementing best-practices across the Engineering department. Hands-on with the development and deployment of tools.
+        description: Hired to lead a team of 7 DevOps/Site Reliability Engineers with a focus on implementing best-practices across the Engineering department. Hands-on with the development and deployment of tools.
         highlights: 
             - By implementing Agile methodologies (Scrum and Kanban), achieved transparency and streamlined deadlines to deliver incremental releases
             - Identified a lack of insight into the operations, remediated by implementing monitoring and log aggregation to promote data-driven decisions with tools such as Datadog and Sumologic
@@ -101,8 +100,8 @@ work:
             - By driving a Single Sign-On (SSO/SAML) project for the entire business, delivered a win-win by striking a balance between security and ease of access for the end-user with technologies such as Okta
             - Played a key role in conceiving and implementing a data loss prevention solution to enhance security and protect business assets from leaving company property with tools such as Skyhigh and Zscaler
             - Architected, designed, and implemented a File Tracking tool using Python, giving the business complete insight into where Client data resides within the platform lifecycle
-        startDate: May, 2015
-        endDate: Oct, 2017
+        startDate: 2015
+        endDate: 2017
         technology: 
             - ansible
             - aws
@@ -128,8 +127,8 @@ work:
             - Working with Xen virtualization, networking, full-stack maintenance/monitoring/automation
             - Developed new monitoring of our infrastructure with the use of Nagios
             - Team lead in infrastructure upgrades, datacenter genesis, and the DevOps Feature Team
-        startDate: Nov, 2013
-        endDate: May, 2015
+        startDate: 2013
+        endDate: 2015
         technology:
             - ansible 
             - github
@@ -145,8 +144,8 @@ work:
         description: C/C++ developer working on IP security camera integration with an in-house Network Video Recorder.
         highlights: 
             - Developing in a linux environment (SuSE) primarily using tcpdump, wireshark, and of course gdb as the goto debugging tools.
-        startDate: Oct, 2011
-        endDate: Nov, 2013
+        startDate: 2011
+        endDate: 2013
         technology: 
             - cplusplus
             - jenkins
@@ -159,8 +158,8 @@ work:
         description: Projects ranging from video/image processing; developing camera drivers, storage performance tests/GUIs; and system administration scripting and hardware/software installations.
         highlights: 
             - Development ranging from C/C++ performance testing suites to Java front-end GUI design and application driven programs.
-        startDate: May, 2007
-        endDate: Oct, 2011
+        startDate: 2007
+        endDate: 2011
         technology: 
             - cplusplus
             - cuda
