@@ -1,0 +1,78 @@
+gamma-iota:
+    -
+        name: Lucas Falsarella Guerreiro
+        class: Rho
+        year: 2021
+        major: ECE
+        formal_image: lucasfalsarellaguerreiro_formal.jpeg
+        fun_image: lucasfalsarellaguerreiro_fun.jpeg
+        description: 
+            - Hometown: Valinhos, Brazil
+            - Activities: President of BRASA, and working at the Help Desk on campus. Teaching people how to pronounce my last names.
+            - Interests: Video games, especially story-based ones. Movies, always down to watch a good movie or just a fun action one. Cooking, love learning new recipes and just spending time in the kitchen. Board games, kinda of a new hobby, enjoy playing and learning about new board games DnD, it's just fun, wish I had more time to do it.
+            - Favorite Memory: That one time in February I walked outside and it wasn't too cold.
+
+    -
+        name: Joshua Hoy
+        class: Pi
+        year: 2021
+        major: RBE/ME
+        formal_image: joshuahoy_formal.jpeg
+        fun_image: joshuahoy_fun.jpeg
+        description: 
+            - Hometown: Fiskdale, MA
+            - Activities: Avoiding Amrit, Doing house jobs
+            - Interests: I gym sometimes
+            - Favorite Memory: Being hit in the forehead with a trident. Not because it was particularly enjoyable, but because I don't actually remember anything that's happened since then.
+
+    -
+        name: Lucas Fernandes
+        class: Rho
+        year: 2022
+        major: CS & IMGD Tech
+        formal_image: lucasfernandes_formal.jpeg
+        fun_image: lucasfernandes_fun.jpeg
+        description: 
+            - Hometown: Ludlow, MA
+            - Activities: Skiing, golf, basket ball, ping pong, Web/Chair, and sleeping
+            - Interests: Smash Brothers, movies, hip-hop, coding, photo/video editing, cooking
+            - Favorite Memory: Beating Ethan in pong 2-0
+
+    -
+        name: Lucas Falsarella Guerreiro
+        class: Rho
+        year: 2021
+        major: ECE
+        formal_image: lucasfalsarellaguerreiro_formal.jpeg
+        fun_image: lucasfalsarellaguerreiro_fun.jpeg
+        description: 
+            - Hometown: Valinhos, Brazil
+            - Activities: President of BRASA, and working at the Help Desk on campus. Teaching people how to pronounce my last names.
+            - Interests: Video games, especially story-based ones. Movies, always down to watch a good movie or just a fun action one. Cooking, love learning new recipes and just spending time in the kitchen. Board games, kinda of a new hobby, enjoy playing and learning about new board games DnD, it's just fun, wish I had more time to do it.
+            - Favorite Memory: That one time in February I walked outside and it wasn't too cold.
+
+    -
+        name: Joshua Hoy
+        class: Pi
+        year: 2021
+        major: RBE/ME
+        formal_image: joshuahoy_formal.jpeg
+        fun_image: joshuahoy_fun.jpeg
+        description: 
+            - Hometown: Fiskdale, MA
+            - Activities: Avoiding Amrit, Doing house jobs
+            - Interests: I gym sometimes
+            - Favorite Memory: Being hit in the forehead with a trident. Not because it was particularly enjoyable, but because I don't actually remember anything that's happened since then.
+            
+    -
+        name: Lucas Fernandes
+        class: Rho
+        year: 2022
+        major: CS & IMGD Tech
+        formal_image: lucasfernandes_formal.jpeg
+        fun_image: lucasfernandes_fun.jpeg
+        description: 
+            - Hometown: Ludlow, MA
+            - Activities: Skiing, golf, basket ball, ping pong, Web/Chair, and sleeping
+            - Interests: Smash Brothers, movies, hip-hop, coding, photo/video editing, cooking
+            - Favorite Memory: Beating Ethan in pong 2-0
