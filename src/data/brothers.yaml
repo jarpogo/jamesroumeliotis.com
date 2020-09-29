@@ -1,11 +1,11 @@
-gamma-iota:
+gammaiota:
     -
         name: Lucas Falsarella Guerreiro
         class: Rho
         year: 2021
         major: ECE
-        formal_image: lucasfalsarellaguerreiro_formal.jpeg
-        fun_image: lucasfalsarellaguerreiro_fun.jpeg
+        formal_image: lucasfalsarellaguerreiro_formal.jpg
+        fun_image: lucasfalsarellaguerreiro_fun.jpg
         description: 
             - Hometown: Valinhos, Brazil
             - Activities: President of BRASA, and working at the Help Desk on campus. Teaching people how to pronounce my last names.
@@ -17,8 +17,8 @@ gamma-iota:
         class: Pi
         year: 2021
         major: RBE/ME
-        formal_image: joshuahoy_formal.jpeg
-        fun_image: joshuahoy_fun.jpeg
+        formal_image: joshuahoy_formal.jpg
+        fun_image: joshuahoy_fun.jpg
         description: 
             - Hometown: Fiskdale, MA
             - Activities: Avoiding Amrit, Doing house jobs
@@ -30,8 +30,8 @@ gamma-iota:
         class: Rho
         year: 2022
         major: CS & IMGD Tech
-        formal_image: lucasfernandes_formal.jpeg
-        fun_image: lucasfernandes_fun.jpeg
+        formal_image: lucasfernandes_formal.jpg
+        fun_image: lucasfernandes_fun.jpg
         description: 
             - Hometown: Ludlow, MA
             - Activities: Skiing, golf, basket ball, ping pong, Web/Chair, and sleeping
@@ -43,8 +43,8 @@ gamma-iota:
         class: Rho
         year: 2021
         major: ECE
-        formal_image: lucasfalsarellaguerreiro_formal.jpeg
-        fun_image: lucasfalsarellaguerreiro_fun.jpeg
+        formal_image: lucasfalsarellaguerreiro_formal.jpg
+        fun_image: lucasfalsarellaguerreiro_fun.jpg
         description: 
             - Hometown: Valinhos, Brazil
             - Activities: President of BRASA, and working at the Help Desk on campus. Teaching people how to pronounce my last names.
@@ -56,8 +56,8 @@ gamma-iota:
         class: Pi
         year: 2021
         major: RBE/ME
-        formal_image: joshuahoy_formal.jpeg
-        fun_image: joshuahoy_fun.jpeg
+        formal_image: joshuahoy_formal.jpg
+        fun_image: joshuahoy_fun.jpg
         description: 
             - Hometown: Fiskdale, MA
             - Activities: Avoiding Amrit, Doing house jobs
@@ -69,8 +69,8 @@ gamma-iota:
         class: Rho
         year: 2022
         major: CS & IMGD Tech
-        formal_image: lucasfernandes_formal.jpeg
-        fun_image: lucasfernandes_fun.jpeg
+        formal_image: lucasfernandes_formal.jpg
+        fun_image: lucasfernandes_fun.jpg
         description: 
             - Hometown: Ludlow, MA
             - Activities: Skiing, golf, basket ball, ping pong, Web/Chair, and sleeping

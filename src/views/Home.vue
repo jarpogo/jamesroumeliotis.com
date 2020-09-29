@@ -9,7 +9,7 @@
         border-variant="dark"
       >
         <template v-slot:header>
-          <b-img rounded="circle" :src="require('../assets/me.png')"></b-img>
+          <b-img rounded="circle" :width="200" :src="require('../assets/me.png')"></b-img>
           {{resume.name}}
         </template>
         <br />

@@ -19,20 +19,15 @@ import resume from "js-yaml-loader!../data/resume.yaml";
 export default {
   name: "Projects",
   components: {
-    ProjectCard
+    ProjectCard,
   },
   data() {
     return {
       value: 45,
       max: 100,
-      resume
+      resume,
     };
   },
-  methods: {
-    randomValue() {
-      this.value = Math.random() * this.max;
-    }
-  }
 };
 </script>
 
