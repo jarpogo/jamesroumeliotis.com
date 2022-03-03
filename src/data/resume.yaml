@@ -27,6 +27,37 @@ about:
 
 work:
     -
+        company: aPriori Technologis
+        logo: apriori.png
+        website: https://apriori.com/
+        title: Assoc. Director, DevOps
+        description: Introducing best-of-breed cloud concepts to elevate the organization into a modern SaaS offering. Directly leading the DevOps team while indirectly driving CloudOps and security team initiatives.  Fulfilling additional roles when needed such as scrum master, product owner, and IC.
+        highlights:
+            - Collaborated with CTO and board members to evaluate possible startup business synergies
+            - Directed the CloudOps team and management to build process runbooks and implementation plans
+            - Continuous partnership with architecture to replace problematic AWS services with better solutions focusing on functionality, security, and scalability (such as MongoDB Atlas)
+            - Proposed vision of self-serviceability to enable developers to move fast by reducing dependencies on other teams (toolset of Git, Jenkins, and Python)
+            - Flattened the Java spring framework of our container microservices reducing complexity and allowing promotions throughout the SDLC with a single button
+            - Rearchitected Terraform environment infrastructure to support green/blue upgrade deployments decreasing downtime from 6 hours to 30 mins.
+            - Increased team velocity 66% by adopting modern Scrum ceremonies while hiring key roles to address gaps (Scrum Master and Product Owner)
+            - Mentored the DevOps manager to own and deliver CI/CD automation across our development teams (Git, Jenkins, and Nexus)
+        startDate: 2020
+        endDate: Present
+        technology: 
+            - auth0
+            - aws
+            - cloudcheckr
+            - datadog
+            - github
+            - java
+            - jenkins
+            - jira
+            - nexus
+            - springboot
+            - sumologic
+            - python
+            - teams
+    -
         company: Cimpress Technology
         logo: cimpress.png
         website: https://cimpress.com/
@@ -40,7 +71,7 @@ work:
             - Drove a redesign of STS keygen app using GoLang and Equinox.io to increase security and simplify accessibility of access keys.
             - Lowered security violations 25% across all AWS linked accounts.
         startDate: 2018
-        endDate: Jun, 2020
+        endDate: 2020
         technology: 
             - artifactory
             - auth0
