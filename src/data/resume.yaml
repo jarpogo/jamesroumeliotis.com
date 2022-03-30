@@ -171,10 +171,14 @@ work:
         company: Tyco
         logo: tyco.png
         website: https://www.tyco.com/
-        title: Software Engineer III
+        title: Software Engineer IV
         description: C/C++ developer working on IP security camera integration with an in-house Network Video Recorder.
         highlights: 
-            - Developing in a linux environment (SuSE) primarily using tcpdump, wireshark, and of course gdb as the goto debugging tools.
+            - Developed C++ camera handlers in SuSE environment.
+            - Utilized gdb, tcpdump, and wireshark tools to debug camera/NVR communication.
+            - Led ONVIF open-standard project to develop universal camera communicator.
+            - Gstreamer used for creating video/audio/events pipelines for cameras.
+
         startDate: 2011
         endDate: 2013
         technology: 
@@ -188,7 +192,10 @@ work:
         title: Software Engineer II
         description: Projects ranging from video/image processing; developing camera drivers, storage performance tests/GUIs; and system administration scripting and hardware/software installations.
         highlights: 
-            - Development ranging from C/C++ performance testing suites to Java front-end GUI design and application driven programs.
+            - C++ drivers created for video cameras and image processing.
+            - Created test suite using JavaFX GUI and C++ back-end to handle performance tests.
+            - OpenGL/Boost libraries utilized for camera video streams and synchronization.
+
         startDate: 2007
         endDate: 2011
         technology: 
